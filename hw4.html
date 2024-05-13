@@ -1,0 +1,81 @@
+<!--
+Oliver Calandra CS 416-02 | Homework 4
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TicketMaster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Boot-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--JQuery-->
+    <script src="js/jQuery-3.7.1.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="h4style.css">
+    <!--JS-->
+    <script src="js/ticket.js"></script>
+</head>
+
+<body>
+<div class="container-fluid" id="heading">
+    <img src="Images/Logo.PNG" id="logo" alt="logoImg">
+    <h1 class="padmar">Ticket Master</h1>
+    <h2 class="padmar">Quickly find tickets around you!</h2>
+    <p class="padmar">~This is a Ticket Master recreation~</p>
+
+
+    <form id="search-menu">
+        <div class="row see-txt-bg">
+            <label for="pick-me">Search By</label>
+            <select name="pick-me" id="pick-me" class="col-4">
+                <option value="all">All</option>
+                <option value="art">Artist</option>
+                <option value="city">City</option>
+                <option value="eve">Event Type</option>
+                <option value="gen">Genre</option>
+            </select>
+            <!--https://www.educba.com/html-search-bar/-->
+            <input type="text" name="searchbar" placeholder="Search" id="searchbar" class="col-4">
+            <button type="button" class="btn col-4" id="search" onclick="getEvent()">Go!</button>
+        </div>
+    </form>
+    <!--Advanced search is currently not working as expected, not filling data in properly due to json file missing or renaming data will continue to work on-->
+    <button type="button" class="btn col-4" id="search-more" onclick="advanced()">Advanced Search</button>
+
+</div>
+
+<div class="padding-margin border shadow p-4 mb-4 rounded style-card">
+    <div class="container-xl padding overflow-hidden">
+        <div class="row">
+            <!--Text & Button-->
+            <div class="col-xl-6">
+                <h2 class="display-2"> Event Title </h2>
+                <h2 class="lead">Location: local <br> Adress: where </h2>
+                <h2 class="lead">When: day @ time </h2>
+                <h2 class="lead">Buy here: <a href=""> Tickets</a></h2>
+                <p class="lead"> eventTy brought to you by : provider</p>
+            </div>
+            <!--Image-->
+            <div class="col-xl-6">
+                <img src="" class="img-fluid image-style" alt="Pic">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="numRes"></div>
+<div id="results-search"></div>
+<div id="footer">
+    <h1>Customer Support: (123)456-7890</h1>
+    <br>
+    <p>&copy; 2023 Oliver Calandra</p>
+    <p>~This is a Ticket Master recreation~</p>
+</div>
+<!--Boot part 2-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

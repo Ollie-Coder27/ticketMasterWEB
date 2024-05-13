@@ -1,0 +1,2 @@
+GET https://app.ticketmaster.com/discovery/v2/events.json?size=20&apikey=HQTzfG9hTjizZaCixmG1aPYVQkzY9fWw
+Accept: application/json

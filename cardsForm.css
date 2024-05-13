@@ -1,0 +1,174 @@
+/*
+Oliver Calandra
+010.07.2023
+CSS for homework 2 | CS 416-02 | Fall 2023
+
+NOTE!! Class names
+Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., .btn and .btn-danger).
+
+*/
+
+body{
+    background: rgba(54, 3, 25, 0.5);
+    font-family: Verdana;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.padding-margin {
+    padding: 2%;
+    margin: 5%;
+}
+
+
+.padding {
+    padding: 2%;
+}
+
+.margin {
+    margin: 2%;
+}
+
+.detailloading{
+    font-size: larger;
+    color:royalblue;
+}
+
+.style_card{
+    background: rgba(148, 191, 190, 0.6);
+}
+body {
+    background: rgba(54, 3, 25, 0.5);
+    font-family: Verdana;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+/*
+Color pallet:
+#360319 - dark T purple
+#5C0029 - Tyrian Purple
+#61304B - Violet (JTC)
+#847C8D - Taupe gray
+#94BFBE - Tiffany Blue
+*/
+.see-txt-bg {
+    color: white;
+    padding: 3%;
+    font-size: larger;
+}
+
+.padmar {
+    margin: 2%;
+    text-align: center;
+}
+
+.form-br {
+    color: #61304B;
+    padding: 5%;
+    height: 5px;
+}
+
+#results-search {
+    background: #61304B;
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.padding-margin {
+    padding: 2%;
+    margin: 5%;
+}
+
+
+.padding {
+    padding: 2%;
+}
+
+.margin {
+    margin: 2%;
+}
+
+a{
+    color: #61304B;
+}
+
+#logo{
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.style_card {
+    background: rgba(148, 191, 190, 0.6);
+}
+.image_style{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#heading {
+    background: rgb(92, 0, 41);
+    background: linear-gradient(45deg, rgba(92, 0, 41, 1) 3%, rgba(97, 48, 75, 1) 26%, rgba(133, 124, 141, 1) 71%, rgba(148, 191, 190, 1) 100%);
+    color: white;
+    padding: 3%;
+}
+
+#footer {
+    padding: 3%;
+    background: #94BFBE;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#searchbar {
+
+}
+
+#search {
+    background: rgba(54, 3, 25, 0.5);
+    color: white;
+}
+#search_more {
+    background: rgba(54, 3, 25, 0.5);
+    color: white;
+}
+
+#pick_me {
+    color: darkslategrey;
+}
+
+#search_menu {
+
+}
+#numRes{
+    color: #94BFBE;
+    text-align: left;
+}
+
+/*
+${eventTy}
+Testing backgrounds for clear boarders of cards and such
+  .background2{
+ background-color: grey;
+ }
+   .background3{
+ background-color: pink;
+ }
+      .background4{
+ background-color: mediumseagreen;
+ }
+
+ */
+
+
+
+
+
+
